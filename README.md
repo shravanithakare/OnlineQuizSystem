@@ -1,6 +1,8 @@
 # Skill's Breaker
-An online quiz system built on PHP, JS and HTML. It has inbuilt Timer support along with Admin Panel
+An online quiz system built on PHP, JS and HTML. It has inbuilt Timer support along with Admin Pane
 
+About System
+This Online Quiz System is in PHP, CSS, JavaScript, and bootstrap. Talking about the features of the Online Quiz system, it just contains both the admin section and the user section. The user can log in to give the exam, while the admin can view all users, their rankings and manage questions. The design of this project is pretty simple so that the user won’t find any difficulties while working on it.
 
 #Added features: 
 
@@ -11,11 +13,25 @@ An online quiz system built on PHP, JS and HTML. It has inbuilt Timer support al
 5. Added control to store the answers to question and show a detailed analysis of the quiz results.
 6. Improved GUI of the quiz panel.
 
+How To Run The Project?
+To run this project, you must have installed a virtual server i.e XAMPP on your PC (for Windows). This Online Quiz System in PHP with source code is free to download, Use for educational purposes only!
 
-#How to Use
+After Starting Apache and MySQL in XAMPP, follow the following steps.
+1st Step: Extract file
+2nd Step: Copy the main project folder
+3rd Step: Paste in xampp/htdocs/
+4th Step: Open a browser and go to URL “http://localhost/phpmyadmin/”
+5th Step: Then, click on the databases tab
+6th Step: Create a database naming “exam” and then click on the import tab
+7th Step: Click on browse file and select “exam.sql” file which is inside the “Online-Quiz” folder
+8th Step: Click on go.
 
-1. Use the Admin Panel to set up quiz. Quiz won't be enabled unless you click the "Enable" button. Click on the same to enable an added quiz.
-2. Scores are updated realtime on the server, however the leaderboard will be updated only when the user finishes the quiz, or there is a time out or the admin ends the quiz by clicking on "Disable" button.
-3. Once the admin clicks on the disable button, the quiz ends for all the users taking that quiz, irrespective of their active or inactive state (whether logged in or left the quiz in the middle only). The leaderboard will be updated either when a user "Finishes" his /her quiz and when the admin "disables" the quiz. 
-4. Once the quiz is disabled, the quiz becomes inaccessible. If the quiz is enabled again later, only those user who have not already taken the quiz can take the quiz.
-5. It is recommended that you Enable the quiz when all the users are ready and disable the quiz when all the users have completed the quiz or time limit of taking the quiz has exceeded.
+After Creating Database,
+
+9th Step: Open a browser and go to URL “http://localhost/ Online-Quiz /”
+
+Note: For admin panel, go to URL ” http://localhost/ Online-Quiz/admin.php”
+For the project demo, you can have a look at the video below:
+
+
+
